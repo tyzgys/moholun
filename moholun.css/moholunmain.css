@@ -6,15 +6,12 @@ body {
     height: 9300px;
   background-position: center top, center center, center bottom;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; чтобы фон был статичным при прокрутке */
   background-size: 100%; /* все три заполняют экран */
 }
 
 
 
 .text1{
-   /* font-family: "Malahit" ;
-   color: #FBCC70; */
    font-family: "Malahit";
   color: #7BCCFF;
   font-size: 28px;
@@ -32,13 +29,11 @@ body {
   font-size: 36px;
 }
 .text3{
-    /* max-width: 1000px; */
   color: #FFFFFF;
   font-family: "IBM Plex Serif" ;
   font-size: 18px;
   line-height: 1.2;
   text-align: left; 
-  /* margin-top: -10px; */
 }
 .text4{
    max-width: 1000px;
@@ -105,7 +100,6 @@ body {
 background-image: url("../img.moholun/leftram.png");
 width: 50%;
 background-size: 100%;
-/* height: ; */
 background-repeat: no-repeat;
 transform: rotate(-6deg);
 align-self: self-start;
@@ -124,9 +118,7 @@ align-self: flex-end;
 margin-right: -9%;
 }
 .div4{
-  /* background-image: url("../img.moholun/logotip.png"); */
   width: 80%;
-  /* margin-left: 20%; */
 background-size: 100%;
 background-repeat: no-repeat;
 padding: 0px 80px;
@@ -212,7 +204,6 @@ margin-top: -19%;
   display:inline-flex;
   margin-top: 6%;
   margin-left: 10%;
-  /* margin-bottom: -100px; */
 }
 .znachok4{
   border-radius: 20px;
@@ -225,7 +216,6 @@ margin-top: -19%;
   align-items: center;
   margin-left: 43%;
   margin-top: 15%;
-  /* transform: translateX(50%); */
 
 }
 .znachok5{
@@ -239,7 +229,6 @@ margin-top: -19%;
   align-items: center;
   margin-left: 42%;
   margin-top: 15%;
-  /* transform: translateX(50%); */
 
 }
 .znachok6{
@@ -253,7 +242,6 @@ margin-top: -19%;
   align-items: center;
   margin-left: 43%;
   margin-top: 15%;
-  /* transform: translateX(50%); */
 
 }
 .znachok7{
@@ -267,7 +255,6 @@ margin-top: -19%;
   align-items: center;
   margin-left: 39%;
   margin-top: 30%;
-  /* transform: translateX(50%); */
 
 }
 
@@ -280,8 +267,6 @@ margin-top: -19%;
 font-family: "Malahit" ;
  color: #c07bff;
  font-size: 32px;         
- /* margin-top: -10; */
- /* padding: 1px 2px; */
  line-height: 70%;
 }
  
@@ -299,16 +284,12 @@ font-family: "Malahit" ;
   font-family: "Malahit" ;
  color: #c07bff;
  font-size: 32px;         
- /* margin-top: -10; */
- /* padding: 1px 2px; */
  line-height: 70%;
 }
 .name5{
   font-family: "Malahit" ;
  color: #c07bff;
  font-size: 32px;         
- /* margin-top: -10; */
- /* padding: 1px 2px; */
  line-height: 70%;
 }
 
@@ -448,17 +429,17 @@ min-height: 100vh;               /* на всю высоту экрана */
 
 
 .div6img{
-    width: 400px; /* Настройте под нужный размер */
+    width: 400px;
     height: auto;
     border-radius: 10px;
 }
 .div7img{
-  width: 300px; /* Настройте под нужный размер */
+  width: 300px;
     height: auto;
     border-radius: 10px;
 }
 .div8img{
- width: 400px; /* Настройте под нужный размер */
+ width: 400px;
     height: auto;
     border-radius: 10px;
 }
@@ -508,3 +489,4 @@ min-height: 100vh;               /* на всю высоту экрана */
     border-radius: 10px;
 
 }
+
