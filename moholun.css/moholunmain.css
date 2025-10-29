@@ -1,0 +1,509 @@
+body {
+  /* background-color: #1a062a; */
+  background-image: 
+    url("../img.moholun/fon.svg");
+    width: 99%;
+    height: 9300px;
+  background-position: center top, center center, center bottom;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; чтобы фон был статичным при прокрутке */
+  background-size: 100%; /* все три заполняют экран */
+}
+
+
+
+.text1{
+   /* font-family: "Malahit" ;
+   color: #FBCC70; */
+   font-family: "Malahit";
+  color: #7BCCFF;
+  font-size: 28px;
+  margin-top: 36px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.text2{
+   font-family: "IBM Plex Serif" ;
+  max-width: 1100px;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 36px;
+}
+.text3{
+    /* max-width: 1000px; */
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: left; 
+  /* margin-top: -10px; */
+}
+.text4{
+   max-width: 1000px;
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: -1px;
+  text-align: left;
+}
+.text5{
+     width: 800px;      /* ширина текстового блока */
+     height: 174px;
+  color: #FFFFFF;
+  font-family: "IBM Plex Serif" ;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: left;  
+  margin-left: 28%;   
+  margin-top: -40px;
+}
+.text6{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    line-height: 1.2;
+    text-align: center; 
+    margin-top: -5%;
+}
+.text7{
+     font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: left; 
+    margin-top: -5%;
+    margin-left: 4%;
+    display: flex;
+    align-self: flex-end;
+}
+.text8{
+    font-family: "IBM Plex Serif" ;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: center; 
+    margin-top: -5%;
+    margin-left: 4%;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+
+.divosnova1{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+.div2{
+background-image: url("../img.moholun/leftram.png");
+width: 50%;
+background-size: 100%;
+/* height: ; */
+background-repeat: no-repeat;
+transform: rotate(-6deg);
+align-self: self-start;
+margin-left: -9%;
+padding: 40px 50px;
+
+}
+.div3{
+background-image: url("../img.moholun/rightram.png");
+width: 50%;
+background-size: 100%;
+background-repeat: no-repeat;
+transform: rotate(6deg);
+padding: 40px 50px;
+align-self: flex-end;
+margin-right: -9%;
+}
+.div4{
+  /* background-image: url("../img.moholun/logotip.png"); */
+  width: 80%;
+  /* margin-left: 20%; */
+background-size: 100%;
+background-repeat: no-repeat;
+padding: 0px 80px;
+}
+.div5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.div6{
+    flex: 0 0 auto;
+    margin-bottom: 300px;
+}
+.div7{
+   flex: 0 0 auto;
+}
+.div8{
+  flex: 0 0 auto;
+  margin-bottom: 300px;
+}
+.div9{
+margin-top: -19%;
+}
+.div10{
+  margin-top: 20px;
+}
+.div11{
+  margin-top: 28%;
+}
+.div12{
+  margin-top: 29%;
+}
+.div13{
+  margin-top: 20px;
+}
+.div14{
+  margin-top: -18%;
+}
+.div15{
+  margin-top: 12%;
+}
+.div16{
+  margin-top: 1%;
+}
+.div17{
+  margin-top: 12%;
+}
+
+
+
+
+
+
+
+.znachok1{
+  border-radius: 20px;
+  padding: 0px 12px;
+  background-color: transparent;
+  display: inline-block;
+  border: 4px dashed #C07BFF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.znachok2{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 58%;
+  background-color: transparent;
+  display:inline-flex;
+  margin-bottom: -100px;
+}
+.znachok3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 24px;
+  background-color: transparent;
+  display:inline-flex;
+  margin-top: 6%;
+  margin-left: 10%;
+  /* margin-bottom: -100px; */
+}
+.znachok4{
+  border-radius: 20px;
+  padding: 0px 12px;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  border: 4px dashed #C07BFF;
+  text-align: center;
+  align-items: center;
+  margin-left: 43%;
+  margin-top: 15%;
+  /* transform: translateX(50%); */
+
+}
+.znachok5{
+  border-radius: 20px;
+  padding: 0px 12px;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  border: 4px dashed #C07BFF;
+  text-align: center;
+  align-items: center;
+  margin-left: 42%;
+  margin-top: 15%;
+  /* transform: translateX(50%); */
+
+}
+.znachok6{
+  border-radius: 20px;
+  padding: 0px 12px;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  border: 4px dashed #C07BFF;
+  text-align: center;
+  align-items: center;
+  margin-left: 43%;
+  margin-top: 15%;
+  /* transform: translateX(50%); */
+
+}
+.znachok7{
+  border-radius: 20px;
+  padding: 0px 12px;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  border: 4px dashed #C07BFF;
+  text-align: center;
+  align-items: center;
+  margin-left: 39%;
+  margin-top: 30%;
+  /* transform: translateX(50%); */
+
+}
+
+
+
+
+
+
+.name1{
+font-family: "Malahit" ;
+ color: #c07bff;
+ font-size: 32px;         
+ /* margin-top: -10; */
+ /* padding: 1px 2px; */
+ line-height: 70%;
+}
+ 
+.name2{
+    color: #c07bff;
+    font-size: 146px;         
+    font-family: "Malahit" ;
+}
+.name3{
+    color: #c07bff;
+    font-size: 146px;         
+    font-family: "Malahit" ;
+}
+.name4{
+  font-family: "Malahit" ;
+ color: #c07bff;
+ font-size: 32px;         
+ /* margin-top: -10; */
+ /* padding: 1px 2px; */
+ line-height: 70%;
+}
+.name5{
+  font-family: "Malahit" ;
+ color: #c07bff;
+ font-size: 32px;         
+ /* margin-top: -10; */
+ /* padding: 1px 2px; */
+ line-height: 70%;
+}
+
+
+
+
+
+.picturelogo{
+margin-bottom: -250px;
+}
+.picturelogo1{
+width: 410px; 
+}
+.picturelogo2{
+    width: 410px;
+    position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* чтобы текст был поверх */
+}
+.picture1{
+ width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* чтобы текст был поверх */
+}
+.picture2{
+  width: 100%;
+  margin-top: 15%;
+}
+.picture02{
+    width: 80%;
+}
+.picture3{
+  transform: scale(0.7);
+  transform-origin: center;
+}
+
+
+
+
+
+
+
+.slide1{
+    position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.slide2{
+min-height: 100vh;               /* на всю высоту экрана */
+  display: flex;                   /* выравнивает содержимое */
+  flex-direction: column;          /* всё в колонку */
+  justify-content: center;         /* центр по вертикали */
+  align-items: center;             /* центр по горизонтали */
+  text-align: center;
+  padding: 40px;                   /* небольшие внутренние отступы */
+  margin-top: 5%;
+}
+.slide3{
+  position: relative;
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-top: -80px;
+}
+.slide4{
+   width: 80%;
+   height: 400px;
+   margin-left: 6%;
+   background-image: url("../img.moholun/logotip.png");
+   background-size: 100%; 
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+    justify-content: center;         /* центр по вертикали */
+  align-items: center;             /* центр по горизонтали */
+  text-align: center;
+  padding: 40px 50px;
+   margin-top: -80px;
+}
+.slide6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: -33px;
+}
+.slide7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: -10%;
+    flex-wrap: wrap;
+  }
+.slide8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+.slide9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 17%;
+    flex-wrap: wrap;
+}
+.slide10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: -33px;
+}
+.slide11{
+    flex-wrap: wrap;
+    margin-top: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+
+.div6img{
+    width: 400px; /* Настройте под нужный размер */
+    height: auto;
+    border-radius: 10px;
+}
+.div7img{
+  width: 300px; /* Настройте под нужный размер */
+    height: auto;
+    border-radius: 10px;
+}
+.div8img{
+ width: 400px; /* Настройте под нужный размер */
+    height: auto;
+    border-radius: 10px;
+}
+.div9img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div10img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div11img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div12img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div13img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div14img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div15img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div16img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.div17img{
+  width: 350px;
+    height: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Podkova" ;
+    src: url(../fonts/Podkova.ttf) format(truetype);
+    font-weight: 400 ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Malahit" ;
+    src: url(../fonts/ofont.ru_Malahit\ \(1\).ttf) format(truetype);
+    font-weight: 400 ;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Serif" ;
+    src: url(../fonts/IBMPlexSerif-Regular.ttf) format(truetype);
+    font-weight: 400 ;
+    font-style: normal;
+}
