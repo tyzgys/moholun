@@ -1,5 +1,5 @@
 body {
-  /* background-color: #1a062a; */
+  background-color: #1a062a;
   background-image: 
     url("../img.moholun/fon.svg");
     width: 99%;
@@ -506,4 +506,5 @@ min-height: 100vh;               /* на всю высоту экрана */
   width: 350px;
     height: auto;
     border-radius: 10px;
+
 }
